@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    img{
+        width: 20px;
+    }
+  
+    p{
+        
+        margin: 10px;
+    }
+    hr{
+        width: 120px;
+    }
+}
+@media (width >= 800px) {
+    .group{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .hr{
+        width: 200px;
+    }
+    .skills {
+        
+            max-width: fit-content;
+            gap: 30px;
+        
+     
+  
+      p {
+        font-size: 20px;
+      }
+    }
+  
+    hr {
+      width: 300px;
+    }
+  }
+
